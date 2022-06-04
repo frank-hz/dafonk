@@ -1,5 +1,6 @@
 ---
-    deployment:
-      tasks:
-        - export DEPLOYPATH=/home/electroc/public_html/dafonk
-        - /bin/cp -R * $DEPLOYPATH
+  deployment:
+    tasks:
+      - export DEPLOYPATH=/home/electroc/public_html/
+      - /bin/cp app.php $DEPLOYPATH
+      - /bin/cp style.css $DEPLOYPATH
