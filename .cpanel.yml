@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/electroc/public_html/
-    - /bin/cp -R dafonk $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
